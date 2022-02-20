@@ -41,6 +41,34 @@
 <h1>
     Bonjour
 </h1>
+    <style>
+        h1 {
+    text-align:center ;
+    color:red; 
+}
+h1:hover{
+    color:blue;
+}
+.firstparagraphe{
+    text-align:center;
+}
+body{
+    background-color:white;
+}
+ .bite{
+    color:green;
+    text-align:center;
+   visibility:visible
+}
+/*.bite:hover{
+    visibility:hidden
+} */
+h1:hover ~ .bite{
+    visibility: hidden;
+}
+.bite:hover ~ h1{
+    visibility: hidden;
+}
+    </style>
 </body>
-
 </html>
